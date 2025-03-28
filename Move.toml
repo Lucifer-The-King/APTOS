@@ -1,0 +1,15 @@
+[package]
+name = "Multi-lingual."
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xf0841d2c17445ae6e82498b635198d421059e6616c766aceeaebab1d75b54670"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
